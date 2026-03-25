@@ -12,21 +12,20 @@ DiNoS is structured as follows:
     |–– gender
     |–– word forms
         |–– form 1
-            |–– _count
+            |–– count
             |–– spec(ifier) types
                 |–– det_art_specs (determiner-article-specifiers)
-                    |–– _count (cumulative across word forms)
-                    |–– counts (split per word form)
+                    |–– count
                     |–– spec_id
                         |–– [id + count]; e.g.: ('das', ('Gender;Neut', 'Case;Nom', 'Number;Sing')) : 2 
                         |–– ...
                 |–– gen_art_specs (non-determiner/general-article-specifiers)
-                    |–– _count
+                    |–– count
                     |–– spec_id
                         |–– [id + count]; e.g.: ('im', 'APPRART', ('Gender;Masc,Neut', 'Case;Dat', 'Number;Sing')) : 5
                         |–– ...
                 |–– other_specs
-                    |–– _count
+                    |–– count
                     |–– spec_id
                         |–– [id + count]; e.g.: (('ADJ-ADJA', ('Gender;Neut', 'Case;Acc', 'Number;Sing')),) : 3
                         |–– ...
@@ -56,9 +55,9 @@ ___
     |–– loader.py
 ├── data/
     |–– ...
+|–– config.json
 ├── demo.ipynb
 ```
-
 
 ###  0. (optional) Setup for NP dataset/DiNoS creation:
 
@@ -98,15 +97,14 @@ ___
 
 # Dataset releases
 
-The Noun Phrase dataset versions of UD-HDT and UD-GSD can be found under:
-* HDT-NP (722,135 NPs, 1.7M tokens) (CC BY-SA 4.0)
-* GSD-NP (49,425 NPs, 119.0k tokens) (CC BY-SA 4.0)
-
-DiNoS-lexica of UD-HDT and UD-GSD can be found under:
-* HDT-DiNoS (707,706 NPs; 84,598 unique lemmas; 102,418 unique word forms) (CC BY-SA 4.0)
-* GSD-DiNoS: (49,416 NPs; 17,433 unique lemmas; 20,190 unique word forms) (CC BY-SA 4.0)
-
-
+Noun phrase datasets and DiNoS lexica are publihsed on Zenodo under CC BY-SA 4.0:  
+* [HDT-NP/-DiNoS](https://doi.org/10.5281/zenodo.19224081:)
+    * HDT-NP (722,135 NPs, 1.7M tokens)
+    * HDT-DiNoS (707,706 NPs; 84,598 unique lemmas; 102,418 unique word forms)
+* [GSD-NP/-DiNoS](https://doi.org/10.5281/zenodo.19222243)
+    * GSD-NP (49,425 NPs, 119.0k tokens)
+    * GSD-DiNoS: (49,416 NPs; 17,433 unique lemmas; 20,190 unique word forms)
+___
 
 # Citation
 
