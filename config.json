@@ -1,0 +1,27 @@
+{
+    "GSD": {
+        "train": "data/UD_German-GSD-master/de_gsd-ud-train.conllu",
+        "dev": "data/UD_German-GSD-master/de_gsd-ud-dev.conllu",
+        "test": "data/UD_German-GSD-master/de_gsd-ud-test.conllu",
+        "complete": "data/GSD_complete.conllu",
+        "nps": "data/GSD_nps.conllu",
+        "nps_noisy": "data/GSD_nps_noisy.conllu",
+        "dinos": "data/GSD_DiNoS.json",
+        "dinos_noisy": "data/GSD_DDS_noisy.json"
+    },
+    "HDT": {
+        "train": [
+            "data/UD_German-HDT-master/de_hdt-ud-train-a-1.conllu",
+            "data/UD_German-HDT-master/de_hdt-ud-train-a-2.conllu",
+            "data/UD_German-HDT-master/de_hdt-ud-train-b-1.conllu",
+            "data/UD_German-HDT-master/de_hdt-ud-train-b-2.conllu"
+        ],
+        "dev": "data/UD_German-HDT-master/de_hdt-ud-dev.conllu",
+        "test": "data/UD_German-HDT-master/de_hdt-ud-test.conllu",
+        "complete": "data/HDT_complete.conllu",
+        "nps": "data/HDT_nps.conllu",
+        "nps_noisy": "data/HDT_nps_noisy.conllu",
+        "dinos": "data/HDT_DiNoS.json",
+        "dinos_noisy": "data/HDT_DDS_noisy.json"
+    }
+}
