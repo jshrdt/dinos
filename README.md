@@ -98,7 +98,7 @@ ___
 # Dataset releases
 
 Noun phrase datasets and DiNoS lexica are publihsed on Zenodo under CC BY-SA 4.0:  
-* [HDT-NP/-DiNoS](https://doi.org/10.5281/zenodo.19224081:)
+* [HDT-NP/-DiNoS](https://doi.org/10.5281/zenodo.19224081)
     * HDT-NP (722,135 NPs, 1.7M tokens)
     * HDT-DiNoS (707,706 NPs; 84,598 unique lemmas; 102,418 unique word forms)
 * [GSD-NP/-DiNoS](https://doi.org/10.5281/zenodo.19222243)
