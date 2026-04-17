@@ -68,7 +68,7 @@ ___
 ### 1. Creating NP datasets
 
 * From `./dinos`, run:  
-    > ```$ python3 scripts/NPs_extractor.py -v -rfd``` 
+    > ```$ python3 code/NPs_extractor.py -v -rfd``` 
 * Extracts NPs from CoNLL-U treebanks and creates:
     * `./data/{corpus}_complete.conllu`: A merged version of all specified CoNLL-U files per corpus
     * `./data/{corpus}_nps.conllu`: A CoNLL-U  file consisting of the extracted NPs per corpus
@@ -77,7 +77,7 @@ ___
 ### 2. Creating DiNoS-lexica
 
 * From `./dinos`, run:  
-    > ```$ python3 scripts/build_DiNoS.py -v -relem```. 
+    > ```$ python3 code/build_DiNoS.py -v -relem```. 
 * `-relem` activates relemmatisation (specific for German data)
 * `-demo[some-string]` can be passed to create smaller DiNoS files, limited to lemmas beginning with your string of choice. The file will be named `./data/{corpus}_DiNoS_demo_{str}.json`
 
