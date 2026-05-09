@@ -79,7 +79,7 @@ ___
 * From `./dinos`, run:  
     > ```$ python3 code/build_DiNoS.py -v -relem```. 
 * `-relem` activates relemmatisation (specific for German data)
-* `-demo[some-string]` can be passed to create smaller DiNoS files, limited to lemmas beginning with your string of choice. The file will be named `./data/{corpus}_DiNoS_demo_{str}.json`
+* `-demo_{some-string}` can be passed to create smaller DiNoS files, limited to lemmas beginning with your string of choice. The file will be named `./data/{corpus}_DiNoS_demo_{str}.json`
 
 ### 3. Working with DiNoS
 
@@ -104,6 +104,8 @@ Noun phrase datasets and DiNoS lexica are publihsed on Zenodo under CC BY-SA 4.0
 * [GSD-NP/-DiNoS](https://doi.org/10.5281/zenodo.19222243)
     * GSD-NP (49,425 NPs, 119.0k tokens)
     * GSD-DiNoS: (49,416 NPs; 17,433 unique lemmas; 20,190 unique word forms)
+ 
+`Note:` The original study was based on the v2.15 data releases.
 ___
 
 # Citation
@@ -121,12 +123,12 @@ If you use this repository or the associated datasets, pleace cite:
         Nivre, Joakim and
         Osenova, Petya and
         Pustejovsky, James",
-    booktitle = "Proceedings of the First Workshop on Structured Linguistic Data and Evaluation (SLiDE) @ LREC 2026",
+    booktitle = "Proceedings of the First Workshop on Structured Linguistic Data and Evaluation",
     month = may,
     year = "2026",
-    address = "Palma, Mallorca",
-    publisher = "TBD",
-    url = "TBD",
-    pages = "TBD"
+    address = "Palma, Mallorca, Spain",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "https://pustejovsky.github.io/slide-lrec2026/book.pdf#page=205",
+    pages = "191--201"
 }
 ```
